@@ -1,6 +1,8 @@
 ### ViewModel안에서 CoroutineScope를 이용한 HTTP 통신
 > 간편하고 안정적으로 ViewModel안에서 coroutine 사용하기
 
+[코틀린 coroutine 참고](https://github.com/VintageAppMaker/KotlinOnepointLesson/tree/master/src/main/kotlin/asynclib)
+
 kotlin을 사용한다면 AsyncTask보다 안정적이고 편리한 coroutine을 사용하는 것이 현명한 선택이다.
 - flow는 coroutine내에서 스트림과 같은 순차적 프로그래밍을 할 때 사용한다. 주로 네트웍 통신에서 유용하게 사용된다.
 - flow{}내에서 emit으로 값을 전달하면 collect에서 받아 처리한다.
